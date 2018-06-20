@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <EditText
+        android:id="@+id/dialog_ed_name"
+        android:layout_width="match_parent"
+        android:hint="Name"
+        android:layout_marginBottom="5dp"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/dialog_ed_price"
+        android:layout_width="match_parent"
+        android:hint="Price"
+        android:layout_marginBottom="5dp"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/dialog_ed_url"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="5dp"
+        android:hint="Link"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/dialog_ed_siteName"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="5dp"
+        android:hint="SiteName"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btn_add_new_prod"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DONE"
+        android:layout_gravity="center_horizontal"/>
+
+</LinearLayout>
